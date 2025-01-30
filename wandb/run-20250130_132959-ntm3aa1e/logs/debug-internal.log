@@ -1,0 +1,20 @@
+{"time":"2025-01-30T13:29:59.2876895-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"C:\\Users\\Kaeden\\Documents\\GameAIPA1\\wandb\\run-20250130_132959-ntm3aa1e\\logs\\debug-core.log"}
+{"time":"2025-01-30T13:29:59.4026069-05:00","level":"INFO","msg":"created new stream","id":"ntm3aa1e"}
+{"time":"2025-01-30T13:29:59.4026069-05:00","level":"INFO","msg":"stream: started","id":"ntm3aa1e"}
+{"time":"2025-01-30T13:29:59.4026069-05:00","level":"INFO","msg":"handler: started","stream_id":"ntm3aa1e"}
+{"time":"2025-01-30T13:29:59.4026069-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"ntm3aa1e"}
+{"time":"2025-01-30T13:29:59.4026069-05:00","level":"INFO","msg":"sender: started","stream_id":"ntm3aa1e"}
+{"time":"2025-01-30T13:29:59.6258042-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-30T13:29:59.6682547-05:00","level":"ERROR","msg":"error generating diff","error":"no diff found"}
+{"time":"2025-01-30T13:29:59.7431741-05:00","level":"ERROR","msg":"error generating diff","error":"no diff found"}
+{"time":"2025-01-30T13:30:10.5504248-05:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-30T13:31:27.0317285-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-30T13:31:27.0322864-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-30T13:31:28.0338862-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading model.zip","runtime_seconds":1.17137,"progress":"3.0MB/148.4MB"}],"total_operations":1}}
+{"time":"2025-01-30T13:32:28.6358209-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading model.zip","runtime_seconds":3.9839129,"progress":"11.1MB/148.4MB"}],"total_operations":1}}
+{"time":"2025-01-30T13:33:22.1774426-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-30T13:33:23.5089639-05:00","level":"INFO","msg":"stream: closing","id":"ntm3aa1e"}
+{"time":"2025-01-30T13:33:23.5089639-05:00","level":"INFO","msg":"handler: closed","stream_id":"ntm3aa1e"}
+{"time":"2025-01-30T13:33:23.5089639-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ntm3aa1e"}
+{"time":"2025-01-30T13:33:23.5089639-05:00","level":"INFO","msg":"sender: closed","stream_id":"ntm3aa1e"}
+{"time":"2025-01-30T13:33:23.5089639-05:00","level":"INFO","msg":"stream: closed","id":"ntm3aa1e"}

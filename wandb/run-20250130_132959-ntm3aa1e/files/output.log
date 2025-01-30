@@ -1,0 +1,136 @@
+Using cuda device
+Wrapping the env in a VecTransposeImage.
+C:\Users\Kaeden\AppData\Local\Programs\Python\Python38\lib\site-packages\stable_baselines3\common\on_policy_algorithm.py:150: UserWarning: You are trying to run PPO on the GPU, but it is primarily intended to run on the CPU when not using a CNN policy (you are using ActorCriticPolicy which should be a MlpPolicy). See https://github.com/DLR-RM/stable-baselines3/issues/1245 for more info. You can pass `device='cpu'` or `export CUDA_VISIBLE_DEVICES=` to force using the CPU.Note: The model will train, but the GPU utilization will be poor and the training might take longer than on CPU.
+  warnings.warn(
+Logging to runs/ntm3aa1e\PPO_1
+Saving video to C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-0-to-step-200.mp4
+Moviepy - Building video C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-0-to-step-200.mp4.
+Moviepy - Writing video C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-0-to-step-200.mp4
+                                                                                                                       
+
+Moviepy - Done !
+Moviepy - video ready C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-0-to-step-200.mp4
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 616      |
+|    ep_rew_mean     | 327      |
+| time/              |          |
+|    fps             | 211      |
+|    iterations      | 1        |
+|    time_elapsed    | 9        |
+|    total_timesteps | 2048     |
+---------------------------------
+Saving video to C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-2000-to-step-2200.mp4
+Moviepy - Building video C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-2000-to-step-2200.mp4.
+Moviepy - Writing video C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-2000-to-step-2200.mp4
+
+Moviepy - Done !
+Moviepy - video ready C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-2000-to-step-2200.mp4
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 599         |
+|    ep_rew_mean          | 222         |
+| time/                   |             |
+|    fps                  | 152         |
+|    iterations           | 2           |
+|    time_elapsed         | 26          |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.007727201 |
+|    clip_fraction        | 0.0321      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.79       |
+|    explained_variance   | -0.00024    |
+|    learning_rate        | 0.0003      |
+|    loss                 | 31.3        |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.00812    |
+|    value_loss           | 327         |
+-----------------------------------------
+Saving video to C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-4000-to-step-4200.mp4
+Moviepy - Building video C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-4000-to-step-4200.mp4.
+Moviepy - Writing video C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-4000-to-step-4200.mp4
+
+Moviepy - Done !
+Moviepy - video ready C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-4000-to-step-4200.mp4
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 557         |
+|    ep_rew_mean          | 205         |
+| time/                   |             |
+|    fps                  | 138         |
+|    iterations           | 3           |
+|    time_elapsed         | 44          |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.011329664 |
+|    clip_fraction        | 0.104       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.77       |
+|    explained_variance   | -0.0424     |
+|    learning_rate        | 0.0003      |
+|    loss                 | 7.21        |
+|    n_updates            | 20          |
+|    policy_gradient_loss | -0.0138     |
+|    value_loss           | 166         |
+-----------------------------------------
+Saving video to C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-6000-to-step-6200.mp4
+Moviepy - Building video C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-6000-to-step-6200.mp4.
+Moviepy - Writing video C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-6000-to-step-6200.mp4
+
+Moviepy - Done !
+Moviepy - video ready C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-6000-to-step-6200.mp4
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 537         |
+|    ep_rew_mean          | 183         |
+| time/                   |             |
+|    fps                  | 132         |
+|    iterations           | 4           |
+|    time_elapsed         | 61          |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.012573715 |
+|    clip_fraction        | 0.162       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.77       |
+|    explained_variance   | 0.206       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 10.1        |
+|    n_updates            | 30          |
+|    policy_gradient_loss | -0.0188     |
+|    value_loss           | 27.4        |
+-----------------------------------------
+Saving video to C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-8000-to-step-8200.mp4
+Moviepy - Building video C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-8000-to-step-8200.mp4.
+Moviepy - Writing video C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-8000-to-step-8200.mp4
+
+Moviepy - Done !
+Moviepy - video ready C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-8000-to-step-8200.mp4
+Saving video to C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-10000-to-step-10200.mp4
+Moviepy - Building video C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-10000-to-step-10200.mp4.
+Moviepy - Writing video C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-10000-to-step-10200.mp4
+
+Moviepy - Done !
+Moviepy - video ready C:\Users\Kaeden\Documents\GameAIPA1\videos\ntm3aa1e\rl-video-step-10000-to-step-10200.mp4
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 557         |
+|    ep_rew_mean          | 181         |
+| time/                   |             |
+|    fps                  | 129         |
+|    iterations           | 5           |
+|    time_elapsed         | 78          |
+|    total_timesteps      | 10240       |
+| train/                  |             |
+|    approx_kl            | 0.011453625 |
+|    clip_fraction        | 0.146       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.75       |
+|    explained_variance   | 0.4         |
+|    learning_rate        | 0.0003      |
+|    loss                 | 8.33        |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -0.0203     |
+|    value_loss           | 20.8        |
+-----------------------------------------

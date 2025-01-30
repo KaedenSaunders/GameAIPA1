@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\Kaeden\AppData\Local\Programs\Python\Python38\lib\site-packages\stable_baselines3\common\vec_env\vec_video_recorder.py", line 77, in __init__
+    import moviepy  # noqa: F401
+ModuleNotFoundError: No module named 'moviepy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "PA1.py", line 32, in <module>
+    env = VecVideoRecorder(
+  File "C:\Users\Kaeden\AppData\Local\Programs\Python\Python38\lib\site-packages\stable_baselines3\common\vec_env\vec_video_recorder.py", line 79, in __init__
+    raise error.DependencyNotInstalled("MoviePy is not installed, run `pip install 'gymnasium[other]'`") from e
+gymnasium.error.DependencyNotInstalled: MoviePy is not installed, run `pip install 'gymnasium[other]'`

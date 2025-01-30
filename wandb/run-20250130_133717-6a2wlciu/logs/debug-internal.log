@@ -1,0 +1,19 @@
+{"time":"2025-01-30T13:37:17.4505792-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"C:\\Users\\Kaeden\\Documents\\GameAIPA1\\wandb\\run-20250130_133717-6a2wlciu\\logs\\debug-core.log"}
+{"time":"2025-01-30T13:37:17.5650752-05:00","level":"INFO","msg":"created new stream","id":"6a2wlciu"}
+{"time":"2025-01-30T13:37:17.5650752-05:00","level":"INFO","msg":"stream: started","id":"6a2wlciu"}
+{"time":"2025-01-30T13:37:17.5650752-05:00","level":"INFO","msg":"handler: started","stream_id":"6a2wlciu"}
+{"time":"2025-01-30T13:37:17.5650752-05:00","level":"INFO","msg":"sender: started","stream_id":"6a2wlciu"}
+{"time":"2025-01-30T13:37:17.5650752-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"6a2wlciu"}
+{"time":"2025-01-30T13:37:17.8098181-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-30T13:37:28.6716874-05:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-30T14:52:21.5600107-05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-01-30T15:55:09.2222282-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-30T15:55:09.2232276-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-30T15:55:10.2318933-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading model.zip","runtime_seconds":1.2731139,"progress":"1.8MB/148.4MB"},{"desc":"uploading output.log","runtime_seconds":0.9145983,"progress":"651.0KB/651.0KB"},{"desc":"uploading runs\\6a2wlciu\\PPO_1\\events.out.tfevents.1738262238.glados.24336.0","runtime_seconds":0.7735774,"progress":"328.5KB/328.5KB"}],"total_operations":3}}
+{"time":"2025-01-30T15:56:10.9359917-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading model.zip","runtime_seconds":5.4609442,"progress":"15.0MB/148.4MB"}],"total_operations":1}}
+{"time":"2025-01-30T15:57:01.1880346-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-30T15:57:02.7098034-05:00","level":"INFO","msg":"stream: closing","id":"6a2wlciu"}
+{"time":"2025-01-30T15:57:02.7098034-05:00","level":"INFO","msg":"handler: closed","stream_id":"6a2wlciu"}
+{"time":"2025-01-30T15:57:02.7098034-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6a2wlciu"}
+{"time":"2025-01-30T15:57:02.7098034-05:00","level":"INFO","msg":"sender: closed","stream_id":"6a2wlciu"}
+{"time":"2025-01-30T15:57:02.7103097-05:00","level":"INFO","msg":"stream: closed","id":"6a2wlciu"}

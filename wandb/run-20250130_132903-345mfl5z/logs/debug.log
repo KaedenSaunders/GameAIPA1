@@ -1,0 +1,28 @@
+2025-01-30 13:29:03,676 INFO    MainThread:18860 [wandb_setup.py:_flush():68] Current SDK version is 0.19.5
+2025-01-30 13:29:03,676 INFO    MainThread:18860 [wandb_setup.py:_flush():68] Configure stats pid to 18860
+2025-01-30 13:29:03,676 INFO    MainThread:18860 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Kaeden\.config\wandb\settings
+2025-01-30 13:29:03,676 INFO    MainThread:18860 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Kaeden\Documents\GameAIPA1\wandb\settings
+2025-01-30 13:29:03,676 INFO    MainThread:18860 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-30 13:29:03,677 INFO    MainThread:18860 [wandb_init.py:setup_run_log_directory():637] Logging user logs to C:\Users\Kaeden\Documents\GameAIPA1\wandb\run-20250130_132903-345mfl5z\logs\debug.log
+2025-01-30 13:29:03,677 INFO    MainThread:18860 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to C:\Users\Kaeden\Documents\GameAIPA1\wandb\run-20250130_132903-345mfl5z\logs\debug-internal.log
+2025-01-30 13:29:03,681 ERROR   MainThread:18860 [util.py:get_module():249] Error importing optional module tensorboard
+Traceback (most recent call last):
+  File "C:\Users\Kaeden\AppData\Local\Programs\Python\Python38\lib\site-packages\wandb\util.py", line 242, in get_module
+    return import_module(name)
+  File "C:\Users\Kaeden\AppData\Local\Programs\Python\Python38\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'tensorboard'
+2025-01-30 13:29:03,692 ERROR   MainThread:18860 [wandb_init.py:init():1471] error in wandb.init()
+Traceback (most recent call last):
+  File "C:\Users\Kaeden\AppData\Local\Programs\Python\Python38\lib\site-packages\wandb\sdk\wandb_init.py", line 1458, in init
+    _monkeypatch_tensorboard()
+  File "C:\Users\Kaeden\AppData\Local\Programs\Python\Python38\lib\site-packages\wandb\sdk\wandb_init.py", line 1124, in _monkeypatch_tensorboard
+    tb_module.patch()
+  File "C:\Users\Kaeden\AppData\Local\Programs\Python\Python38\lib\site-packages\wandb\integration\tensorboard\monkeypatch.py", line 40, in patch
+    wandb.util.get_module(
+  File "C:\Users\Kaeden\AppData\Local\Programs\Python\Python38\lib\site-packages\wandb\util.py", line 251, in get_module
+    raise wandb.Error(required)
+wandb.errors.errors.Error: Please install tensorboard package

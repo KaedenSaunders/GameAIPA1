@@ -1,0 +1,18 @@
+{"time":"2025-01-30T13:36:21.884936-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.5","symlink path":"C:\\Users\\Kaeden\\Documents\\GameAIPA1\\wandb\\run-20250130_133621-9ldubolx\\logs\\debug-core.log"}
+{"time":"2025-01-30T13:36:21.9990987-05:00","level":"INFO","msg":"created new stream","id":"9ldubolx"}
+{"time":"2025-01-30T13:36:21.9990987-05:00","level":"INFO","msg":"stream: started","id":"9ldubolx"}
+{"time":"2025-01-30T13:36:21.9990987-05:00","level":"INFO","msg":"handler: started","stream_id":"9ldubolx"}
+{"time":"2025-01-30T13:36:21.9990987-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"9ldubolx"}
+{"time":"2025-01-30T13:36:21.9990987-05:00","level":"INFO","msg":"sender: started","stream_id":"9ldubolx"}
+{"time":"2025-01-30T13:36:22.1898728-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-30T13:36:22.229286-05:00","level":"ERROR","msg":"error generating diff","error":"no diff found"}
+{"time":"2025-01-30T13:36:22.3016422-05:00","level":"ERROR","msg":"error generating diff","error":"no diff found"}
+{"time":"2025-01-30T13:36:33.0235128-05:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-30T13:37:09.2845704-05:00","level":"INFO","msg":"stream: closing","id":"9ldubolx"}
+{"time":"2025-01-30T13:37:09.2845704-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-30T13:37:09.2855692-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-30T13:37:09.6615713-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-30T13:37:09.8563748-05:00","level":"INFO","msg":"handler: closed","stream_id":"9ldubolx"}
+{"time":"2025-01-30T13:37:09.8563748-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9ldubolx"}
+{"time":"2025-01-30T13:37:09.8563748-05:00","level":"INFO","msg":"sender: closed","stream_id":"9ldubolx"}
+{"time":"2025-01-30T13:37:09.8563748-05:00","level":"INFO","msg":"stream: closed","id":"9ldubolx"}

@@ -1,0 +1,13 @@
+diff --git a/PA1.py b/PA1.py
+index c4e3cd1..c6738fc 100644
+--- a/PA1.py
++++ b/PA1.py
+@@ -8,7 +8,7 @@ from wandb.integration.sb3 import WandbCallback
+ 
+ config = {
+     "policy_type": "MlpPolicy",
+-    "total_timesteps": 10000,
++    "total_timesteps": 1000000,
+     "env_name": "ALE/SpaceInvaders-v5",
+ }
+ 

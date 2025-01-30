@@ -8,7 +8,7 @@ from wandb.integration.sb3 import WandbCallback
 
 config = {
     "policy_type": "MlpPolicy",
-    "total_timesteps": 10000,
+    "total_timesteps": 1000000,
     "env_name": "ALE/SpaceInvaders-v5",
 }
 
